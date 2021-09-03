@@ -1,5 +1,5 @@
 import "./index.css";
-function Teste({ isLoggedIn, user, Logout, Login }) {
+function RestrictedPage({ isLoggedIn, user, Logout, Login }) {
   return (
     <div className="main">
       {isLoggedIn ? (
@@ -21,4 +21,4 @@ function Teste({ isLoggedIn, user, Logout, Login }) {
     </div>
   );
 }
-export default Teste;
+export default RestrictedPage;

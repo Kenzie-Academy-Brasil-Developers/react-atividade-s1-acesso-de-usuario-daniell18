@@ -1,6 +1,6 @@
 import "./App.css";
 import { useState } from "react";
-import Teste from "./components/RestrictedPage";
+import RestrictedPage from "./components/RestrictedPage";
 
 function App() {
   const [isLoggedIn, setisLoggedIn] = useState(false);
@@ -13,7 +13,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Teste
+      <RestrictedPage
         isLoggedIn={isLoggedIn}
         user={user}
         Logout={Logout}
